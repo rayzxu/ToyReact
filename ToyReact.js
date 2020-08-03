@@ -125,7 +125,7 @@ export class Component {
         // range.insertNode(placeHolder)
 
         /* this.range.deleteContents(); */
-
+        // update不把component展开的更新
         let vdom = this.vdom;
         if(this.oldVdom) {
             let isSameNode = (node1, node2) => {
